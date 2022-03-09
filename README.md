@@ -25,7 +25,7 @@ For example, to deploy the first blue image you can use:
 To deploy the second green image you can use:
 
 ![Green Deployment](https://img.shields.io/badge/v0.0.2-Green%20Deployment-green)
-```
+```yml
     spec:
       containers:
       - name: app
