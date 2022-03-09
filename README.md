@@ -2,6 +2,7 @@
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/aramirol/blue-green-deployment?logo=docker&logoColor=white)
 ![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/aramirol/blue-green-deployment?logo=docker&logoColor=white)
+[![GitHub](https://img.shields.io/github/license/aramirol/blue-green-html-example)](https://github.com/aramirol/blue-green-html-example/blob/main/LICENSE)
 
 Simple container with CentOS 7 and Apache server installed. You must pull the image from [blue-green-deployment](https://hub.docker.com/r/aramirol/blue-green-deployment) in Docker Hub. Basically, I have two images with two versions of the same code that change background colour.
 
@@ -32,3 +33,9 @@ To deploy the second green image you can use:
         ports:
         - containerPort: 80
 ```
+
+## License
+
+MIT License
+
+See [LICENSE](https://github.com/aramirol/blue-green-html-example/blob/main/LICENSE) to see the full text.
